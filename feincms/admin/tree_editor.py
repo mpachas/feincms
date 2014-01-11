@@ -408,7 +408,8 @@ class TreeEditor(ExtensionModelAdmin):
         """
 
         if 'actions_column' not in self.list_display:
-            self.list_display.append('actions_column')
+            #self.list_display.append('actions_column')
+            pass
 
         # handle common AJAX requests
         if request.is_ajax():
